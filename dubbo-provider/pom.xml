@@ -36,6 +36,12 @@
             <scope>test</scope>
         </dependency>
 
+        <!--dubbo-api依赖-->
+       <dependency>
+            <groupId>com</groupId>
+            <artifactId>dubbo-api</artifactId>
+            <version>1.0.0</version>
+        </dependency>
         <!--dubbo-springBoot依赖-->
         <dependency>
             <groupId>com.alibaba.boot</groupId>
@@ -66,7 +72,7 @@
             </plugin>
         </plugins>
         <!--引入本地资源-->
-        <resources>
+        <!--<resources>
             <resource>
                 <directory>lib</directory>
                 <targetPath>BOOT-INF/lib/</targetPath>
@@ -74,7 +80,7 @@
                     <include>**/*.jar</include>
                 </includes>
             </resource>
-        </resources>
+        </resources>-->
     </build>
 
 
